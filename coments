@@ -1,0 +1,15 @@
+----------------------------------- SEMANTIC VERSIONING
+for dependencies
+
+X.Y.Z
+
+X -> Major: Point when the compatibility breaks when going backwards
+y -> Minor: When adding new functionalities
+Z -> Patch: Fixing bugs
+
+Remember that this is a common practice but not everyone follows it
+
+----------------------------------- DEV dependencies
+Remember to download the dependencies that are not needed for functioning, as development dependencies
+for example a linter like standard: npm install standard -D
+the param -D makes it a dev dependence
