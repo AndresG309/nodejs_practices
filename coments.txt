@@ -1,0 +1,29 @@
+----------------------------------- SEMANTIC VERSIONING
+for dependencies
+
+X.Y.Z
+
+X -> Major: Point when the compatibility breaks when going backwards
+y -> Minor: When adding new functionalities
+Z -> Patch: Fixing bugs
+
+Remember that this is a common practice but not everyone follows it
+
+----------------------------------- DEV dependencies
+Remember to download the dependencies that are not needed for functioning, as development dependencies
+for example a linter like standard: npm install standard -D
+the param -D makes it a dev dependence
+
+----------------------------------- HTTP STATUS CODES
+https://http.cat/
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
+
+100-199 => Informative answers
+200-299 => Process completed with everything well
+    200: OK
+300-399 => Redirection
+    301: Resource moved permanently
+400-499 => Client errors (Like wrong route)
+    404: Not found
+500-599 => Server errors
+    500: Internal server error

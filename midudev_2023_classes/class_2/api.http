@@ -1,0 +1,13 @@
+GET http://localhost:3000/pokemon/ditto
+
+### Separation with a '###' comment
+### to create different requests
+
+POST http://localhost:3000/create-pokemon
+Content-Type: application/json
+
+{
+    "name": "Ditto",
+    "type": "Normal",
+    "level": 10
+}

@@ -1,0 +1,22 @@
+{
+  "name": "class_2",
+  "version": "1.0.0",
+  "description": "my first api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev.1": "nodemon 1_server.js",
+    "dev.2": "nodemon 2_routing.js",
+    "dev.3": "nodemon 3_express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "3.1.10"
+  },
+  "dependencies": {
+    "express": "5.1.0"
+  }
+}
