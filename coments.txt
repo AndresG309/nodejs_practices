@@ -1,3 +1,6 @@
+THIS PRACTICE IS BEING DONE FOLLOWING MIDUDEV's VIDEOS THAT YOU CAN FOUND IN THE NEXT YOUTUBE PLAYLIST
+https://youtube.com/playlist?list=PLUofhDIg_38qm2oPOV-IRTTEKyrVBBaU7&si=PoK-xf1MUuZS7Tvm
+
 ----------------------------------- SEMANTIC VERSIONING
 for dependencies
 
