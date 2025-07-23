@@ -15,6 +15,13 @@ const PORT = process.env.PORT ?? 3000;
 
 app.use('/movies', moviesRouter);
 
+// We are using the MVC pattern, so we have controllers and models separated
+// Routes are the views that call the controller defined for each action
+// Then the controller calls the model respectively
+// View -> what the user sees (or can use)
+// Controller -> Defines what to do with the request
+// Model -> Defines how to interact with the data (database, files, etc.)
+
 // Start server
 
 app.listen(PORT, () => {
