@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_practices",
+  "version": "1.0.0",
+  "description": "This is a repository that i use to do some NodeJS practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresG309/nodejs_practices.git"
+  },
+  "keywords": [],
+  "author": "AndresG309",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/AndresG309/nodejs_practices/issues"
+  },
+  "homepage": "https://github.com/AndresG309/nodejs_practices#readme",
+  "workspaces":[
+    "midudev_2023_classes/*",
+    "webhooks"
+  ]
+}
